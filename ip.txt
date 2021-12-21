@@ -1,0 +1,7 @@
+
+# codigo powershell para buscar IP
+#  Get-NetIPAddress -InterfaceAlias WiFi -AddressFamily IPv4 | Select-Object -Property IPAddress
+
+# caminho para comandos powershell
+
+# https://docs.microsoft.com/en-us/powershell/module/nettcpip/set-netipaddress?view=windowsserver2022-ps
