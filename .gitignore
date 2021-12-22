@@ -1,3 +1,5 @@
 # dependencies
 /meta5Venv
 /notebooks
+
+.env
