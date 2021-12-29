@@ -6,16 +6,14 @@ import pandas as pd
 
 load_dotenv()
 
-senha = os.getenv('PWD')
-
 # df_trp = pd.read_csv("./src/Transporte.csv", delimiter=',')
 # df_trp['Data_Hora'] = pd.to_datetime(df_trp['Data_Hora'], format= '%Y-%m-%d')
 # df_ativo = df_trp[df_trp['Sku'] == 2]
 # print(df_ativo)
 
-server = os.getenv('SERVER')
+server   = os.getenv('SERVER')
 database = os.getenv('DATABASE')
-username = os.getenv('USERNAME')
+username = os.getenv('USER')
 password = os.getenv('PWD')
 
 cnxn = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server}; SERVER='+server+';DATABASE='+database+';UID='+username+';PWD='+password)
