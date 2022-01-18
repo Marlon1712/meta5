@@ -25,11 +25,7 @@ token = os.getenv('MY_TOKEN')
 updater = Updater(token)
 
 updater.dispatcher.add_handler(CommandHandler('hello', hello))
-<<<<<<< HEAD
 updater.dispatcher.add_handler(CommandHandler('mega', mega))
-=======
-updater.dispatcher.add_handler(CommandHandler('meta', meta))
->>>>>>> 4e0b47c24d27375213d539e43ea9c574e5302e21
 updater.dispatcher.add_handler(CommandHandler('start', start))
 
 updater.start_polling()
