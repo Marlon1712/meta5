@@ -1,5 +1,5 @@
 # dependencies
 /meta5Venv
 /notebooks
-
+/.kaggle/*
 .env
