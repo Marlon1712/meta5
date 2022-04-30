@@ -1,5 +1,7 @@
 # dependencies
-/meta5Venv
+/venv
 /notebooks
 /.kaggle/*
 .env
+docker-compose.yml
+Dockerfile
